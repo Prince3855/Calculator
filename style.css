@@ -1,0 +1,49 @@
+.container{
+	text-align: center;
+	margin: 0px;
+	height:100%;
+	width: 100%;
+}
+table{
+	margin: auto;
+}
+input{
+	font-size: 150%;
+	width: 97%;
+	height: 4rem;
+	border-radius: 20px;
+	background-color: rgb(39, 43, 47);
+	color: rgb(255, 255, 255);
+	margin: 4% 0%;
+	padding: 0% 0.5%;
+	border: 2px inset rgb(117, 113, 113);
+}
+button{
+	font-size: 1.3rem;
+	color: white;
+	background-color: rgb(39, 43, 47);
+	width: 5rem;
+	height: 2.5rem;
+	border-radius: 12px;
+	margin: 1% 0.8%;
+	border: 2px outset rgb(117, 113, 113);
+}
+.calc{
+	display: inline-block;
+	background-color: rgb(36, 35, 43);
+	padding: 1%;
+	border-radius: 20px;
+	border: 3px outset rgb(175, 173, 173);
+	margin-top: 2%;
+}
+
+button:hover{
+	background-color: rgb(60, 66, 71);
+	border: 1px outset rgb(138, 130, 130);
+}
+h1{
+	color: white;
+}
+h2{
+	color: red;
+}
