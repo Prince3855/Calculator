@@ -19,6 +19,7 @@ input{
 	border: 2px inset rgb(117, 113, 113);
 }
 button{
+	list-style:none;
 	font-size: 1.3rem;
 	color: white;
 	background-color: rgb(39, 43, 47);
