@@ -7,7 +7,7 @@ for(item of buttons){
     item.addEventListener('click',(e)=>{
         buttonText=e.target.innerText;
         ids=e.target.id;
-        console.log(buttonText,ids);
+//         console.log(buttonText,ids);
         if(buttonText=='DEL')
         {
             screenValue=screenValue.substring(0,screenValue.length-1);
@@ -36,6 +36,7 @@ for(item of buttons){
             } 
             try{
                 screenValue=eval(screenValue);
+                screenValue=screenValue.toString();
             }
             catch(error){
                 screenValue='undefine';
