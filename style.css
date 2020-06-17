@@ -25,6 +25,7 @@ input{
 	border: 2px inset rgb(117, 113, 113);
 }
 button{
+	outline: none;
 	list-style:none;
 	font-size: 1.3rem;
 	color: white;
